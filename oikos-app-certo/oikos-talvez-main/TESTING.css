@@ -1,0 +1,102 @@
+/* Bordered form */
+*{
+  margin: 0;
+  padding: 0%;
+}
+
+body{
+  background-image: url('fundo-tela-de-login-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+
+#labelImput{
+  width: 100%;
+  text-align: center;
+}
+
+
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+
+  /* Set a style for all buttons */
+  #submitButton {
+    background-color: #234F1E;
+    border-radius: 30px;
+    color: white;
+    padding: 6px;
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+  }
+
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+  /* Extra style for the cancel button (red) */
+
+
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    size-adjust: var(100%);
+  }
+
+  /* Avatar image */
+  img.avatar {
+    position: relative;
+    margin-top: 18%;
+    width: 30%;
+    border-radius: 50%;
+  }
+
+  /* Add padding to containers */
+  .container {
+    position: relative;
+    top: 100px;
+    padding: 50px;
+    width: 50%;
+    margin: 8px auto;
+  }
+
+
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding: 6px;
+    background-color: #234F1E;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 5%;
+    margin-right: 9%;
+    border: 6px;
+    }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 400px) {
+    span.psw {
+      display: inline;
+      float: right;
+    }
+    .cancelbtn {
+      width: 80px;
+    }
+  }
